@@ -26,26 +26,26 @@ aside {
   display: none;
 }
 
-#logo_poliba {
+#header_logo {
   margin-top: 10px;
   max-width: 60%;
 }
 
-#header_navbar {
+#header_nav_bar {
   background-color: white;
   margin: 10px;
   border-radius: 5px;
   height: 80px;
 }
 
-#header_navbar .navlist {
+#header_nav_bar .nav_list {
   list-style-type: none;
   display: flex;
   flex-direction: row;
   padding: 0px;
 }
 
-#header_navbar .navitem {
+#header_nav_bar .nav_item {
   flex: 1;
   height: 50px;
   max-height: 50px;
@@ -59,14 +59,14 @@ aside {
   margin-right: 5px;
 }
 
-#header_navbar .navlink {
+#header_nav_bar .nav_link {
   display: block;
   background-color: aqua;
   text-decoration: none;
   color: black;
 }
 
-#header_navbar .navlink:hover {
+#header_navbar .nav_link:hover {
   background-color: white;
   color: blue;
 }

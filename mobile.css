@@ -64,6 +64,7 @@ aside {
   background-color: aqua;
   text-decoration: none;
   color: black;
+  font-size: 1.25em;
 }
 
 #header_navbar .nav_link:hover {
@@ -88,4 +89,43 @@ main {
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   gap: 10px 10px;
+}
+
+footer {
+  background-color: white;
+  margin-top: 10px;
+  border: outset 5px gray;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+#footer_logo {
+  max-width: 200px;
+}
+
+#footer_container {
+  display: flex;
+  flex-direction: rows;
+}
+
+.footer_section {
+  flex: 1;
+  text-align: left;
+}
+
+.footer_section .footer_list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.footer_section .footer_list_link {
+  text-decoration: none;
+  background-color: none;
+  color: blue;
+}
+
+.footer_section .footer_list_link:hover {
+  color: white;
+  background-color: blue;
 }

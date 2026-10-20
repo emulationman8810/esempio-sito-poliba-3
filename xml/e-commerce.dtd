@@ -1,0 +1,29 @@
+<!ELEMENT catalogo (metadata, prodotti)>
+
+<!ELEMENT metadata (nome_negozio, recapito, ultimo_aggiornamento)>
+<!ELEMENT nome_negozio (#PCDATA)>
+<!ELEMENT recapito (#PCDATA)>
+<!ELEMENT ultimo_aggiornamento (#PCDATA)>
+
+<!ELEMENT prodotti (prodotto*)>
+
+<!ELEMENT prodotto (nome, marca, categoria, prezzo, giacenza, specifiche, recensioni)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT prezzo (#PCDATA)>
+<!ELEMENT giacenza (#PCDATA)>
+<!ELEMENT specifiche (specifica+)>
+<!ELEMENT specifica (#PCDATA)>
+<!ELEMENT recensioni (recensione*)>
+
+<!ELEMENT recensione (utente, testo, data, voto)>
+<!ELEMENT utente (#PCDATA)>
+<!ELEMENT testo (#PCDATA)>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT voto (#PCDATA)>
+
+<!ATTLIST prodotto sku CDATA  #REQUIRED disponibile (true|false) #REQUIRED>
+<!ATTLIST categoria id CDATA #REQUIRED>
+<!ATTLIST specifica id CDATA #REQUIRED nome CDATA #REQUIRED>
+<!ATTLIST recensione id CDATA #REQUIRED>

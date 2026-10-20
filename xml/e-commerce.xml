@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalogo SYSTEM "e-commerce.dtd">
+<catalogo>
+    <metadata>
+        <nome_negozio>Nome catalogo</nome_negozio>
+        <recapito>+39 123 456 7890</recapito>
+        <ultimo_aggiornamento>20-10-2026</ultimo_aggiornamento>
+    </metadata>
+    <prodotti>
+        <prodotto sku="123456789" disponibile="true">
+            <nome>Nome del prodotto</nome>
+            <marca>Marca</marca>
+            <categoria id="CAT-00">Categoria</categoria>
+            <prezzo valuta="EUR">Prezzo</prezzo>
+            <giacenza>Disponibilità</giacenza>
+            <specifiche>
+                <specifica id="SPEC-00" nome="Peso">123 kg</specifica>
+                <specifica id="SPEC-01" nome="Dimensione">123 x 123 x 123 cm</specifica>
+            </specifiche>
+            <recensioni>
+                <recensione id="R00">
+                    <utente>Utente</utente>
+                    <testo>Testo recensione</testo>
+                    <data>20-10-2026</data>
+                    <voto>5/5</voto>
+                </recensione>
+                <recensione id="R01">
+                    <utente>Utente</utente>
+                    <testo>Testo recensione2</testo>
+                    <data>10-10-2026</data>
+                    <voto>3/5</voto>
+                </recensione>
+            </recensioni>
+        </prodotto>
+    </prodotti>
+</catalogo>

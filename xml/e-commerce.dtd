@@ -23,7 +23,11 @@
 <!ELEMENT data (#PCDATA)>
 <!ELEMENT voto (#PCDATA)>
 
-<!ATTLIST prodotto sku CDATA  #REQUIRED disponibile (true|false) #REQUIRED>
+<!ATTLIST prodotto 
+    sku CDATA  #REQUIRED 
+    disponibile (true|false) #REQUIRED>
 <!ATTLIST categoria id CDATA #REQUIRED>
-<!ATTLIST specifica id CDATA #REQUIRED nome CDATA #REQUIRED>
+<!ATTLIST specifica 
+    id CDATA #REQUIRED 
+    nome CDATA #REQUIRED>
 <!ATTLIST recensione id CDATA #REQUIRED>
